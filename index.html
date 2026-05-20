@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mathu gym </title> 
+</head>
+<body>
+     
+    <!--npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch-->
+    <nav class="bg-black/70 text-white font-bold flex justify-between p-3">
+
+        <div>
+            <h1>Mathu Gym</h1>
+        </div> 
+
+        <div>
+            <ul class=" hidden md:flex md:gap-4">
+                <li class="hover:underline">Home</li>
+                <li class="hover:underline">Programs</li>
+                <li class="hover:underline">Trainers</li>
+            </ul>
+        </div> 
+
+        <div>
+            <span class="bg-white text-black p-2 rounded-2xl hover:bg-black hover:text-white">Contact us</span>
+        </div>
+    </nav> 
+
+    <!--hero section--> 
+    <div class="bg-[url(gym2.avif)] w-full h-[300px] md:h-[600px] bg-center bg-cover flex justify-center items-center">  
+
+    <div class="bg-black/75 w-full h-[300px] md:h-[600px] flex flex-col justify-center items-center">
+          
+          <h1 class=" md:text-7xl text-white font-bold"> TRANSFORM YOUR BODY,</h1> 
+          <h1 class="  md:text-6xl text-white font-bold">Build Your Confidence.</h1>
+          <div class="mt-4 flex gap-8">
+             <span class="bg-red-600 p-1 md:p-2 text-white">Explore plans</span>
+             <span class="text-black bg-white p-1 md:p-2 ">Location</span>
+          </div>
+       
+          
+    </div>  
+    </div>
+
+   <h1 class="text-3xl md:text-6xl text-center mt-5">why Choose Mathu Gym ?</h1> 
+
+   <!--why choose mathu gym cards --> 
+
+   <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 md:gap-4 bg-black/25 justify-items-center mt-10 w-full py-12 md:py-24"> <!--grid container-->
+       
+    <div class="flex flex-col justify-center items-center p-3">
+        <i class="fa-solid fa-certificate text-6xl md:text-8xl text-center"></i>
+           <h3 class="font-bold">Ceritified trainers</h3> 
+    </div>
+ 
+     <div class="flex flex-col justify-center items-center p-3">
+        <i class="fa-solid fa-dumbbell text-6xl md:text-8xl text-center"></i>
+           <h3 class="font-bold">Mordern Equipment</h3> 
+    </div>
+ 
+    
+     <div class="flex flex-col justify-center items-center p-3">
+        <i class="fa-solid fa-fire text-6xl md:text-8xl text-center"></i>
+           <h3 class="font-bold">Personalized Plans</h3> 
+    </div>
+ 
+    
+     <div class="flex flex-col justify-center items-center p-3">
+        <i class="fa-regular fa-clock text-6xl md:text-8xl text-center"></i>
+           <h3 class="font-bold">Flexible timing</h3> 
+    </div>
+ 
+    
+ 
+       
+   </div>
+    
+
+   <!--plans-->  
+
+   <h1 class="text text-3xl md:5xl text-center font-bold mt-6">PROGRAMS</h1>
+
+   <div class="grid grid-cols-1 gap-19 md:grid-cols-3 mt-20 justify-items-center bg-gray-100 p-4">   
+
+    <!--biginnners plans-->
+      
+    <div class="w-full max-w-[300px] h-[500px] md:w-[300px] shadow-2xl flex flex-col justify-between rounded-2xl bg-white">
+        <h1 class="text-2xl font-bold pl-4">Beginner plans</h1> 
+
+        <ul class="mt-4 flex flex-col gap-3 text-gray-600 pl-4">
+            <li>✔ Introduction to basic movements</li>
+            <li>✔ Guided by certified trainers</li>
+            <li>✔ Small group classes</li>
+            <li>✔ Flexible timing</li>
+        </ul>
+        <div class="flex flex-col"> 
+         <span class="text-3xl font-bold pl-4">499 INR/month</span> 
+         <span class="bg-blue-700 text-white p-2">Get started</span>
+        </div>
+    </div> 
+
+   <!--gold plan--> 
+   <div class="h-[500px] md:w-[300px] w-full max-w-[300px] shadow-2xl flex flex-col justify-between rounded-2xl bg-white  border-yellow-600 border-2 mb-5 MD:scale-110">
+        <h1 class="text-2xl font-bold pl-4 relative bottom-8 bg-yellow-600 text-white rounded-3xl">Gold plans</h1> 
+
+        <ul class="mt-4 flex flex-col gap-3 text-gray-600 pl-4">
+             <li>✔ Full Access to all Equipment</li>
+            <li>✔ Personalized Work Guidance</li>
+            <li>✔ Diet & Nutrition Support  </li>
+            <li>✔ Advanced strength & Cardio Training</li>
+            <li>✔ Trainer Assistance</li>
+            <li>✔ Locker Facility Access </li>
+        </ul>
+        <div class="flex flex-col"> 
+         <span class="text-3xl font-bold pl-4">999 INR/month</span> 
+         <span class="bg-yellow-700 text-white p-2 font-bold">Join Gold</span>
+        </div>
+    </div>
+
+<!--perimium plan--> 
+
+<div class="h-[500px] md:w-[300px] w-full max-w-[300px] shadow-2xl flex flex-col justify-between rounded-2xl bg-white border-2 border-blue-700">
+        <h1 class="text-2xl font-bold pl-4">Standard</h1> 
+
+        <ul class="mt-4 flex flex-col gap-3 text-gray-600 pl-4">
+            <li>✔ Full Access to Gym</li>
+            <li>✔ Personalized Work Guidance</li>
+            <li>✔ Basic Diet  Support  </li>
+            <li>✔ Trainer Assistance</li>
+            <li>✔ Flexible workout Schedule </li>
+        </ul>
+        <div class="flex flex-col"> 
+         <span class="text-3xl font-bold pl-4">699 INR/month</span> 
+         <span class="bg-blue-700 text-white p-2">Get started</span>
+        </div>
+    </div>
+
+   </div> 
+
+   <!--testimonials--> 
+     <h1 class="text-3xl md:text-5xl font-bold text-center m-8"> 
+        What Our members Say</h1>
+     </h1>
+     
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 bg-violet-500 justify-items-center"> <!--grid container-->
+
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col ">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>
+          
+       
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col ">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>
+
+
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col ">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>
+
+
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col hidden md:block ">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>
+
+
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col hidden md:block ">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>
+
+
+      <div class="h-[200px] w-[350px] shadow-2xl rounded-2xl bg-white m-5 flex flex-col hidden md:block">
+
+          <div>
+             <i class="fa-solid fa-user rounded-full border-2 text-3xl m-3"></i>  <span class="font-bold">Steve Rogers</span>
+          </div>  
+           
+          <div>
+             <span class="text-center pl-3">"Joining Mathu Gym was the best decision I made for my health. The trainers genuinely care about your progress"</span>
+          </div>
+      </div>  
+
+</div> 
+
+<div class="bg-black text-white grid grid-cols-1 md:grid-cols-3 justify-items-center mt-10">
+  
+        <ul class="p-4 hidden md:block">
+            <li>facebook</li>
+            <li>yourube</li>
+            <li>instagram</li>
+        </ul> 
+
+         <ul class="p-4 hidden md:block">
+            <li>programs</li>
+            <li>buy equipmet</li>
+            <li>contact trainers</li>
+        </ul> 
+
+         <ul class="p-4 hidden md:block">
+            <li>mathugym@gmail.com</li>
+            <li>erode, tamilnadu</li>
+            <li>@Mathu_Gym, all right reserved</li>
+        </ul> 
+</div>
+     
+</body>
+</html>
